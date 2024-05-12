@@ -1,0 +1,9 @@
+.top-alert .alert-wrapper {
+    top: 20px; /* Adjust the distance from the top as needed */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .top-alert {
+    z-index: 0 !important; /* Set a lower z-index to display the alert at the back */
+  }
+  

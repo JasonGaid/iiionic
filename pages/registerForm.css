@@ -1,0 +1,78 @@
+.register-background {
+    background-color: #f5f5f5; /* Light gray background */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Ensure full height */
+  }
+  
+  .register-form-container {
+    width: 80%; /* Set width to 80% of the viewport width */
+    margin: auto; /* Center the form horizontally */
+    display: flex;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  .image-container {
+    flex: 1; /* Occupy 50% of the container width */
+    text-align: center; /* Center the image */
+    border-radius: 20px 0 0 20px; /* Adjust border radius */
+    background-color: #fff; /* Set background color to white */
+  }
+  
+  .image-container img {
+    max-width: 100%; /* Make the image responsive */
+    height: 100%; /* Ensure the image takes the full height of its container */
+    object-fit: contain; /* Maintain aspect ratio and fit the image inside the container */
+  }
+  
+  .form-container {
+    flex: 1; /* Occupy 50% of the container width */
+    padding: 20px;
+  }
+  
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+  }
+  
+  .input-field {
+    width: 100%; /* Take full width */
+    margin-bottom: 10px; /* Add spacing between input fields */
+    border-radius: 5px;
+    background-color: #fff; /* White background */
+    border-bottom: 1px solid #ccc; /* Thin horizontal line */
+  }
+  
+  .register-button {
+    width: 100%; /* Take full width */
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  .error-message {
+    margin-top: 20px;
+    text-align: center; /* Center error message */
+  }
+  
+  .login-link {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center; /* Center register link */
+  }
+  
+  @media (max-width: 768px) {
+    .register-background {
+      background-image: url('https://cdn.dribbble.com/users/1319343/screenshots/14584578/media/0a63d314f0c5141774fc31e22b504a58.gif'); /* Set the image as the background */
+      background-size: cover; /* Cover the entire background with the image */
+      background-position: center; /* Center the background image */
+    }
+  
+    .image-container {
+      display: none; /* Hide the image container on small screens */
+    }
+  }
+  
